@@ -1,0 +1,50 @@
+body {
+    margin: 5em;
+}
+img.logo {
+    height: 2.5em !important;
+    background-color: rgba(197, 159, 240, 0.329);
+    border-radius: 50%;;
+}
+img.avatar {
+    height: 2.5em !important;
+    border-radius: 50%;
+}
+img {
+    height: 25em;
+}
+a {
+    color:#7289DA;
+}
+a:hover {
+    color: #99AAB5;
+}
+
+div.temoignage {
+    background-color: rgb(255, 235, 235);
+    color:black;
+    padding:1em;
+}
+
+input, textarea {
+    border-color: black;
+}
+
+input:focus, textarea:focus {
+    border-color: lightblue;
+    outline:none;
+}
+
+.input-submit {
+    background-color: black;
+    color:white;
+}
+
+h6 {
+    font-size:large;
+}
+
+body {
+    background-color: #2C2F33;
+    color:snow;
+}
