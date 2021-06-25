@@ -1,0 +1,115 @@
+li {
+    display: inline-block;
+}
+
+li>a {
+    border-radius: 0.5rem;
+    background-color: #06aebf;
+    transition: 0.25s;
+    text-decoration: none;
+    color: #2a63e0;
+    font-size: 1.4rem;
+    padding: 0.25rem;
+    margin: 0.25rem;
+    line-height: 1.75;
+}
+
+li>a:hover {
+    background-color: #50d3d0;
+    transition: 0.25s;
+    color: #2a63e0;
+}
+
+a {
+    color: #041cd4;
+    transition: 0.25s;
+}
+
+a:hover {
+    transition: 0.25s;
+    color: #2e7c7b;
+}
+
+header {
+    text-align: center;
+}
+
+header>img {
+    width: 100%;
+}
+
+#home {
+    background-image: url("https://images.unsplash.com/photo-1486520299386-6d106b22014b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    /*Photo by <a href="https://unsplash.com/@fiveamstories?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Shutin</a> on <a href="https://unsplash.com/s/photos/blue?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
+    background-size: cover;
+    text-align: center;
+    padding: 0.5rem;
+    color: #000;
+}
+
+body {
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.professionnel {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background-color: #019901;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 25%;
+    opacity: 0.9;
+    transition: 0.25s;
+}
+
+.professionnel>img {
+    width: 15%;
+}
+
+.professionnel:hover {
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.post>a>img {
+    width: 75%;
+    border-radius: 5px;
+}
+
+.post>a {
+    color: #fff;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background-color: #041cd4;
+    border-radius: 5px;
+    padding: 0.5em;
+    color: #fff;
+    opacity: 0.9;
+    transition: 0.25s;
+}
+
+.post:hover {
+    opacity: 1;
+    filter: none;
+    transition: 0.25s;
+}
+
+#news {
+    text-align: center;
+}
+
+div.doctors {
+    display: flex;
+    justify-content: center;
+}
