@@ -1,2 +1,2 @@
 # HopitalProjetGraven
-Regardez ma version du défi de graven dans le dossier `v1`!
+Différentes version du défi de graven : [`v1`](/v1) & [`v2`](/v2)
